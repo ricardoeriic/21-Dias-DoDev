@@ -2,19 +2,12 @@ let tabuada = Number(prompt("Insira o número da tabuada que deseja, te devolver
 
 console.log("Aqui está a tabuada do " + tabuada)
 
-for (contador = 0; contador <= 10; contador++)
-    console.log(tabuada + " x " + contador + " = " + tabuada*contador)
+let tabuadaFinal = tabuada + 15;
+//tabuada = 5
+for (let contadorTabuada = tabuada; contadorTabuada <= tabuadaFinal ; contadorTabuada++) {
 
-tabuada = tabuada + 1
+    for(let contador = 0; contador <= 10; contador++){
+        console.log(contadorTabuada + ' x ' + contador + " = " + contadorTabuada*contador)
+    }
 
-console.log("Aqui está a tabuada do " + tabuada)
-
-for (contador = 0; contador <= 10; contador++)
-    console.log(tabuada + " x " + contador + " = " + tabuada*contador)
-
-tabuada = tabuada + 1
-
-console.log("Aqui está a tabuada do " + tabuada)
-
-for (contador = 0; contador <= 10; contador++)
-    console.log(tabuada + " x " + contador + " = " + tabuada*contador)
+}
