@@ -7,11 +7,6 @@ for(let contadorUm = 0; contadorUm < 10; contadorUm++){
 
 
 
-
-
-
-
-
 let tabuada = Number(prompt("Insira o número da tabuada que deseja, te devolverei ela e as próximas duas"))
 
 console.log("Aqui está a tabuada do " + tabuada)
